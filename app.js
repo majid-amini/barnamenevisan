@@ -24,9 +24,12 @@ const swiper = new Swiper(".swiper", {
 const mySwiper = new Swiper(".mySwiper", {
   // Optional parameters
   direction: "horizontal",
-  slidesPerView: 2,
+  
   spaceBetween: 20,
-
+  autoplay: true,
+  autoplay: {
+    delay: 2000,
+  },
   // If we need pagination
   // pagination: {
   //   el: '.swiper-pagination',
@@ -42,7 +45,11 @@ const mySwiper = new Swiper(".mySwiper", {
     320: {
       slidesPerView: 1,
       spaceBetween: 20,
-     
+  
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
     },
     // when window width is >= 480px
     1024: {
