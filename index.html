@@ -195,7 +195,9 @@
                 </li>
               </ul>
             </div>
-            <div class="list-icons text-[#fff] flex items-baseline gap-2 cursor-pointer">
+            <div
+              class="list-icons text-[#fff] flex items-baseline gap-2 cursor-pointer"
+            >
               <i class="fa fa-user"></i>
               <span class="font-semibold">ورود/</span>
               <span class="font-semibold">ثبت نام</span>
@@ -206,13 +208,13 @@
       <!-- px-8 removed from below container -->
       <div class="container">
         <!-- Slider main container -->
-        <div class="swiper  w-full">
+        <div class="swiper w-full">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
               <div
-                class="card lg:flex justify-evenly items-center gap-8 p-[2.25rem] "
+                class="card lg:flex justify-evenly items-center gap-8 p-[2.25rem]"
               >
                 <div
                   class="card__right lg:w-[500px] flex flex-col mr-2 gap-3 text-black"
@@ -252,7 +254,7 @@
             </div>
             <div class="swiper-slide">
               <div
-                class="card lg:flex justify-evenly items-center gap-8 p-[2.25rem] "
+                class="card lg:flex justify-evenly items-center gap-8 p-[2.25rem]"
               >
                 <div
                   class="card__right lg:w-[500px] flex flex-col mr-2 gap-3 text-black"
@@ -660,7 +662,10 @@
         </div>
       </section>
 
-      <section id="mobile__pic" class="bg-[url('/img/ezgif.com.png')]">
+      <section
+        id="mobile__pic"
+        class="bg-[url('/img/ezgif.com.png')] bg-center pb-[100px]"
+      >
         <div class="container max-w-[1100px]">
           <div
             class="mobile__pic__total grid grid-cols-1 lg:grid-cols-3 gap-2 px-[25px] md:px-0 mt-12 items-center"
@@ -885,8 +890,163 @@
           </div>
         </div>
       </section>
+
+      <section id="portfolio">
+        <div class="container max-w[1100px]">
+          <div class="swiper mySwiper p-4">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper text-center p-5">
+              <!-- Slides -->
+              <div class="swiper-slide relative">
+                <img src="./img/gym.jpg" class="w-[520] h-full" alt="" />
+                <h4
+                  class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                >
+                  فروشگاه ورزشی
+                </h4>
+                <h4
+                  class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
+                >
+                  جیم لاین
+                </h4>
+                <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
+                  سایت فروشگاهی
+                </h6>
+              </div>
+              <div class="swiper-slide relative">
+                <img src="./img/mamut.jpg" class="w-[520]" alt="" />
+                <h4
+                  class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                >
+                  فروشگاه ورزشی
+                </h4>
+                <h4
+                  class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
+                >
+                  جیم لاین
+                </h4>
+                <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
+                  سایت فروشگاهی
+                </h6>
+              </div>
+              <div class="swiper-slide relative">
+                <img src="./img/alemi-2.jpg" class="w-[500px]" alt="" />
+                <h4
+                  class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                >
+                  فروشگاه ورزشی
+                </h4>
+                <h4
+                  class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
+                >
+                  جیم لاین
+                </h4>
+                <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
+                  سایت فروشگاهی
+                </h6>
+              </div>
+              <div class="swiper-slide relative">
+                <img src="./img/alemi-2.jpg" class="w-[500px]" alt="" />
+                <h4
+                  class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                >
+                  فروشگاه ورزشی
+                </h4>
+                <h4
+                  class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
+                >
+                  جیم لاین
+                </h4>
+                <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
+                  سایت فروشگاهی
+                </h6>
+              </div>
+              <div class="swiper-slide relative">
+                <img src="./img/mamut.jpg" class="w-[500px]" alt="" />
+                <h4
+                  class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                >
+                  فروشگاه ورزشی
+                </h4>
+                <h4
+                  class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
+                >
+                  جیم لاین
+                </h4>
+                <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
+                  سایت فروشگاهی
+                </h6>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="bg-[#2d2d2d] p-5">
+      <div class="container p-5">
+        <div
+          class="footer__total grid grid-cols-1 md:grid-cols-3 justify-items-center"
+        >
+          <div class="flex flex-col items-start justify-self-start gap-3">
+            <span class="block p-2">لوگوی برنامه نویسان</span>
+            <div class="flex justify-start gap-4 p-2">
+              <i class="fa-solid fa-map-location"></i>
+              <p>خیابان شریعتی-خیابان ملک</p>
+            </div>
+            <div class="flex justify-start items-center gap-4 p-2">
+              <i class="fa-solid fa-phone"></i>
+              <p>021-55555555</p>
+            </div>
+            <div class="flex items-center gap-4 p-2">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="">info@barnamenevisan.com</a>
+            </div>
+            <div class="flex justify-start gap-4 px-2">
+              <div>
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-telegram"></i>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col items-center gap-3">
+            <h4>لینک های مهم</h4>
+            <a href="">درباره ما</a>
+            <a href="">تماس با ما</a>
+            <a href=""> افتخارات</a>
+            <a href=""> سرویس ها</a>
+            <a href=""> تیم ما</a>
+          </div>
+          <div class="flex flex-col items-center justify-self-end gap-5">
+            <h4>اشتراک خبر رسانی</h4>
+            <h4>آخرین اخبار را دریافت کنید</h4>
+            <input
+              type="email"
+              class="px-4 py-2 rounded-sm"
+              placeholder="ایمیل خود را وارد کنید..."
+            />
+            <button
+              class="py-2 px-16 border-black text-white rounded-lg bg-[rgb(96,165,250)]"
+            >
+              ثبت
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
     <div id="dark"></div>
     <script>
       $(document).ready(function () {

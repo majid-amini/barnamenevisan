@@ -85,3 +85,20 @@ p {
 .slider {
   width: 100% !important;
 }
+#portfolio .swiper {
+  width: 1100px !important;
+}
+#portfolio .swiper-slide {
+  width: 520px !important;
+ 
+}
+#portfolio .swiper-slide::after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  bottom: 60px;
+  width: 50px;
+  height: 5px;
+  border-radius: 15px;
+  background-color: #275A72;
+}
