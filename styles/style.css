@@ -1865,6 +1865,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\/img\/ezgif\.com\.png\'\)\] {
+  background-image: url('/img/ezgif.com.png');
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
