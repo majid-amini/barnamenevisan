@@ -24,7 +24,6 @@ const swiper = new Swiper(".swiper", {
 const mySwiper = new Swiper(".mySwiper", {
   // Optional parameters
   direction: "horizontal",
-  
   spaceBetween: 20,
   autoplay: true,
   autoplay: {
@@ -44,18 +43,14 @@ const mySwiper = new Swiper(".mySwiper", {
     // when window width is >= 320px
     320: {
       slidesPerView: 1,
-      spaceBetween: 20,
-  
+      
     },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    // when window width is >= 480px
     1024: {
       slidesPerView: 2,
       spaceBetween: 30,
     },
+    // when window width is >= 480px
+
     // when window width is >= 640px
   },
 
