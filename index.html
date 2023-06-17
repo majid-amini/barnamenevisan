@@ -622,7 +622,7 @@
             </div>
           </div>
           <div
-            class="group flex flex-col justify-center items-center gap-2 border border-1 border-lightGrayColor p-5 transition-all duration-300 hover:border-gray-100 hover:shadow-md hover:shadow-gray-200 hover:bg-[#93C5FD] hover:text-whiteColor"
+            class="group flex flex-col justify-center items-center gap-2 border border-1 border-lightGrayColor p-5 transition-all duration-300 hover:border-gray-100 hover:shadow-md hover:shadow-gray-200 hover:bg-lightBlueColor hover:text-whiteColor"
           >
             <div>
               <svg
@@ -920,120 +920,368 @@
         </div>
       </section>
 
-      <section id="portfolio">
-        <div class="container max-w[1100px] relative">
-          <div class="swiper xl:w-[1100px] mySwiper">
+      <section id="portfolio" class="md:mt-5">
+        <div class="container xl:max-w-[1100px] relative">
+          <h2 class="text-xl">نمونه کارها</h2>
+          <div class="swiper xl:w-[1100px] mySwiper mt-4">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper text-center">
+            <div class="swiper-wrapper text-center relative">
               <!-- Slides -->
-              <div class="swiper-slide w-[300px] relative">
+              <div
+                class="swiper-slide w-[300px] relative group transition-all ease-in-out duration-500 overflow-hidden"
+              >
                 <img
                   src="./img/gym.jpg"
-                  class="w-full w-[300px] h-[350px] p-2 rounded-2xl"
+                  class="w-full w-[300px] h-[350px] rounded-2xl overflow-hidden"
                   alt=""
                 />
-                <h4
-                  class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                <div
+                  class="relative transition-all ease-in-out duration-500 md:group-hover:-translate-y-20"
                 >
-                  فروشگاه ورزشی
-                </h4>
-                <h4
-                  class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
-                >
-                  جیم لاین
-                </h4>
-                <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
-                  سایت فروشگاهی
-                </h6>
+                  <h4
+                    class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                  >
+                    فروشگاه ورزشی
+                  </h4>
+                  <h4
+                    class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
+                  >
+                    جیم لاین
+                  </h4>
+                  <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
+                    سایت فروشگاهی
+                  </h6>
+                  <div class="text-left absolute left-12 -bottom-10">
+                    <button
+                      class="bg-secondaryColor-500 px-3 py-2 rounded-lg text-whiteColor"
+                    >
+                      مشاهده
+                    </button>
+                  </div>
+                </div>
               </div>
-              <div class="swiper-slide w-[300px] relative">
+              <div
+                class="swiper-slide w-[300px] relative group transition-all ease-in-out duration-500"
+              >
                 <img
                   src="./img/mamut.jpg"
-                  class="w-full h-[350px] p-2"
+                  class="w-full w-[300px] h-[350px] rounded-2xl overflow-hidden"
                   alt=""
                 />
-                <h4
-                  class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                <div
+                  class="relative transition-all ease-in-out duration-500 md:group-hover:-translate-y-20"
                 >
-                  فروشگاه ورزشی
-                </h4>
-                <h4
-                  class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
-                >
-                  جیم لاین
-                </h4>
-                <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
-                  سایت فروشگاهی
-                </h6>
+                  <h4
+                    class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                  >
+                    فروشگاه ورزشی
+                  </h4>
+                  <h4
+                    class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
+                  >
+                    جیم لاین
+                  </h4>
+                  <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
+                    سایت فروشگاهی
+                  </h6>
+                  <div class="text-left absolute left-12">
+                    <button
+                      class="bg-secondaryColor-500 px-3 py-2 rounded-lg text-whiteColor"
+                    >
+                      مشاهده
+                    </button>
+                  </div>
+                </div>
               </div>
-              <div class="swiper-slide w-[300px] relative">
-                <img
-                  src="./img/alemi-2.jpg"
-                  class="w-full h-[350px] p-2"
-                  alt=""
-                />
-                <h4
-                  class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
-                >
-                  فروشگاه ورزشی
-                </h4>
-                <h4
-                  class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
-                >
-                  جیم لاین
-                </h4>
-                <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
-                  سایت فروشگاهی
-                </h6>
-              </div>
-              <div class="swiper-slide w-[300px] relative">
-                <img
-                  src="./img/alemi-2.jpg"
-                  class="w-full h-[350px] p-2"
-                  alt=""
-                />
-                <h4
-                  class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
-                >
-                  فروشگاه ورزشی
-                </h4>
-                <h4
-                  class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
-                >
-                  جیم لاین
-                </h4>
-                <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
-                  سایت فروشگاهی
-                </h6>
-              </div>
-              <div class="swiper-slide w-[300px] relative">
+              <div
+                class="swiper-slide w-[300px] relative group transition-all ease-in-out duration-500"
+              >
                 <img
                   src="./img/mamut.jpg"
-                  class="w-full h-[350px] p-2"
+                  class="w-full w-[300px] h-[350px] rounded-2xl overflow-hidden"
                   alt=""
                 />
-                <h4
-                  class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                <div
+                  class="relative transition-all ease-in-out duration-500 md:group-hover:-translate-y-20"
                 >
-                  فروشگاه ورزشی
-                </h4>
-                <h4
-                  class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
+                  <h4
+                    class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                  >
+                    فروشگاه ورزشی
+                  </h4>
+                  <h4
+                    class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
+                  >
+                    جیم لاین
+                  </h4>
+                  <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
+                    سایت فروشگاهی
+                  </h6>
+                  <div class="text-left absolute left-12">
+                    <button
+                      class="bg-secondaryColor-500 px-3 py-2 rounded-lg text-whiteColor"
+                    >
+                      مشاهده
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide w-[300px] relative group transition-all ease-in-out duration-500"
+              >
+                <img
+                  src="./img/alemi-2.jpg"
+                  class="w-full w-[300px] h-[350px] rounded-2xl overflow-hidden"
+                  alt=""
+                />
+                <div
+                  class="relative transition-all ease-in-out duration-500 md:group-hover:-translate-y-20"
                 >
-                  جیم لاین
-                </h4>
-                <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
-                  سایت فروشگاهی
-                </h6>
+                  <h4
+                    class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                  >
+                    فروشگاه ورزشی
+                  </h4>
+                  <h4
+                    class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
+                  >
+                    جیم لاین
+                  </h4>
+                  <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
+                    سایت فروشگاهی
+                  </h6>
+                  <div class="text-left absolute left-12">
+                    <button
+                      class="bg-secondaryColor-500 px-3 py-2 rounded-lg text-whiteColor"
+                    >
+                      مشاهده
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide w-[300px] relative group transition-all ease-in-out duration-500"
+              >
+                <img
+                  src="./img/gym.jpg"
+                  class="w-full w-[300px] h-[350px] rounded-2xl overflow-hidden"
+                  alt=""
+                />
+                <div
+                  class="relative transition-all ease-in-out duration-500 md:group-hover:-translate-y-20"
+                >
+                  <h4
+                    class="absolute left-10 bottom-[110px] text-2xl font-semibold text-[#9D4545]"
+                  >
+                    فروشگاه ورزشی
+                  </h4>
+                  <h4
+                    class="absolute left-10 bottom-[75px] text-2xl font-semibold text-[#9D4545]"
+                  >
+                    جیم لاین
+                  </h4>
+                  <h6 class="absolute left-10 bottom-[40px] text-[#6D6D6D]">
+                    سایت فروشگاهی
+                  </h6>
+                  <div class="text-left absolute left-12">
+                    <button
+                      class="bg-secondaryColor-500 px-3 py-2 rounded-lg text-whiteColor"
+                    >
+                      مشاهده
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
 
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev hidden md:block"></div>
+            <div
+              class="swiper-button-prev hidden md:block"
+            ></div>
 
-            <div class="swiper-button-next hidden md:block"></div>
+            <div
+              class="swiper-button-next hidden md:block"
+            ></div>
+          </div>
+          
+        </div>
+      </section>
+
+      <section id="our__team" class="mt-8">
+        <div class="container xl:max-w-[1100px]">
+          <h2 class="text-xl">تیم برنامه نویسان</h2>
+          <div>
+            <div class="swiper xl:w-[1100px] swiperPortfolio mt-5">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper text-center">
+                <!-- Slides -->
+                <div
+                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-1.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+                >
+                  <!-- <img src="./img/team-1.jpg" class="w-[300px]" alt="" /> -->
+                  <div
+                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                  ></div>
+                  <div
+                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                  >
+                    <div class="flex flex-col gap-2">
+                      <span class="text-whiteColor text-lg">مدیر عامل</span>
+                      <span class="text-md font-semibold text-primaryColor-100"
+                        >جسیکا جونز</span
+                      >
+                    </div>
+                    <div
+                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                    >
+                      <i class="fa-solid fa-envelope"></i>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                      <i class="fa-brands fa-telegram"></i>
+                      <i class="fa-brands fa-facebook"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-2.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+                >
+                  <!-- <img src="./img/team-1.jpg" class="w-[300px]" alt="" /> -->
+                  <div
+                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                  ></div>
+                  <div
+                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                  >
+                    <div class="flex flex-col gap-2">
+                      <span class="text-whiteColor text-lg">مدیر عامل</span>
+                      <span class="text-md font-semibold text-primaryColor-100"
+                        >جسیکا جونز</span
+                      >
+                    </div>
+                    <div
+                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                    >
+                      <i class="fa-solid fa-envelope"></i>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                      <i class="fa-brands fa-telegram"></i>
+                      <i class="fa-brands fa-facebook"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-3.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+                >
+                  <!-- <img src="./img/team-1.jpg" class="w-[300px]" alt="" /> -->
+                  <div
+                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                  ></div>
+                  <div
+                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                  >
+                    <div class="flex flex-col gap-2">
+                      <span class="text-whiteColor text-lg">مدیر عامل</span>
+                      <span class="text-md font-semibold text-primaryColor-100"
+                        >جسیکا جونز</span
+                      >
+                    </div>
+                    <div
+                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                    >
+                      <i class="fa-solid fa-envelope"></i>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                      <i class="fa-brands fa-telegram"></i>
+                      <i class="fa-brands fa-facebook"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-4.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+                >
+                  <!-- <img src="./img/team-1.jpg" class="w-[300px]" alt="" /> -->
+                  <div
+                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                  ></div>
+                  <div
+                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                  >
+                    <div class="flex flex-col gap-2">
+                      <span class="text-whiteColor text-lg">مدیر عامل</span>
+                      <span class="text-md font-semibold text-primaryColor-100"
+                        >جسیکا جونز</span
+                      >
+                    </div>
+                    <div
+                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                    >
+                      <i class="fa-solid fa-envelope"></i>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                      <i class="fa-brands fa-telegram"></i>
+                      <i class="fa-brands fa-facebook"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-5.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+                >
+                  <!-- <img src="./img/team-1.jpg" class="w-[300px]" alt="" /> -->
+                  <div
+                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                  ></div>
+                  <div
+                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                  >
+                    <div class="flex flex-col gap-2">
+                      <span class="text-whiteColor text-lg">مدیر عامل</span>
+                      <span class="text-md font-semibold text-primaryColor-100"
+                        >جسیکا جونز</span
+                      >
+                    </div>
+                    <div
+                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                    >
+                      <i class="fa-solid fa-envelope"></i>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                      <i class="fa-brands fa-telegram"></i>
+                      <i class="fa-brands fa-facebook"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-6.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+                >
+                  <div
+                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                  ></div>
+                  <div
+                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                  >
+                    <div class="flex flex-col gap-2">
+                      <span class="text-whiteColor text-lg">مدیر عامل</span>
+                      <span class="text-md font-semibold text-primaryColor-100"
+                        >جسیکا جونز</span
+                      >
+                    </div>
+                    <div
+                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                    >
+                      <i class="fa-solid fa-envelope"></i>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                      <i class="fa-brands fa-telegram"></i>
+                      <i class="fa-brands fa-facebook"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev hidden md:block"></div>
+
+              <div class="swiper-button-next hidden md:block"></div>
+            </div>
           </div>
         </div>
       </section>
@@ -1088,7 +1336,11 @@
           </div>
           <div class="w-full px-4 sm:w-1/2 lg:w-2/12">
             <div class="mb-10 w-full">
-              <h4 class="text-dark mb-9 text-lg font-semibold transition-all duration-500 hover:text-primaryColor-400 hover:-translate-x-2">درباره شرکت</h4>
+              <h4
+                class="text-dark mb-9 text-lg font-semibold transition-all duration-500 hover:text-primaryColor-400 hover:-translate-x-2"
+              >
+                درباره شرکت
+              </h4>
               <ul>
                 <li>
                   <a
@@ -1127,7 +1379,9 @@
           </div>
           <div class="w-full px-4 sm:w-1/2 lg:w-2/12">
             <div class="mb-10 w-full">
-              <h4 class="text-dark mb-9 text-lg font-semibold transition-all duration-500 hover:text-primaryColor-400 hover:-translate-x-2">
+              <h4
+                class="text-dark mb-9 text-lg font-semibold transition-all duration-500 hover:text-primaryColor-400 hover:-translate-x-2"
+              >
                 لینک های مفید
               </h4>
               <ul>
@@ -1168,7 +1422,9 @@
           </div>
           <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
             <div class="mb-10 w-full">
-              <h4 class="text-dark mb-9 text-lg font-semibold transition-all duration-500 hover:text-primaryColor-400 hover:-translate-x-2">
+              <h4
+                class="text-dark mb-9 text-lg font-semibold transition-all duration-500 hover:text-primaryColor-400 hover:-translate-x-2"
+              >
                 ما را در شبکه های اجتماعی دنبال کنید
               </h4>
               <div class="mb-6 flex items-center">

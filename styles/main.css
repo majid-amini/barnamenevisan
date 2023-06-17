@@ -80,9 +80,9 @@ p {
   transform: rotate(-45deg) translate(7px, -7px);
 }
 
-.slider {
+/* .slider {
   width: 100% !important;
-}
+} */
 /* #portfolio .swiper {
   width: 1100px !important;
 } */
@@ -98,4 +98,7 @@ p {
   height: 5px;
   border-radius: 15px;
   background-color: #275a72;
+}
+.swiper-button-next::after, .swiper-button-prev::after {
+  content: "";
 }
