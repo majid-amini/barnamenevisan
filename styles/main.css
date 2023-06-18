@@ -99,6 +99,8 @@ p {
   border-radius: 15px;
   background-color: #275a72;
 }
-.swiper-button-next::after, .swiper-button-prev::after {
+.swiper-button-next::after,
+.swiper-button-prev::after {
   content: "";
 }
+
