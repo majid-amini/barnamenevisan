@@ -28,13 +28,15 @@
   <body>
     <section class="mt-5">
       <div class="container px-8 md:max-w-[1100px]">
-        <div class="border border-dark">
-          <div class="bg-[#edf3f4] rounded-tl-lg rounded-tr-lg relative w-full">
+        <div class="border border-dark rounded-lg">
+          <div
+            class="relative bg-[#edf3f4] relative rounded-tr-lg rounded-tl-lg w-full p-3 before:w-[95px] before:h-[80px] before:rounded-tr-[40px] before:rounded-bl-[100px] before:absolute before:content-[''] before:bg-[#edf3f4] before:z-1 before:right-0 before:top-[30px]"
+          >
             <div
-              class="p-2 flex flex-col justify-between gap-3 md:ps-[100px] pe-5 w-full"
+              class="p-2 flex flex-col md:flex-row justify-between gap-3 md:ps-[100px] pe-5 w-full"
             >
               <div
-                class="md:absolute md:bg-whiteColor p-1 rounded-full flex justify-center right-0 top-0"
+                class="md:absolute md:bg-whiteColor p-1 rounded-full flex justify-center right-[10px] top-[20px]"
               >
                 <img
                   src="./img/avatar.jpg"
@@ -42,20 +44,25 @@
                   alt=""
                 />
               </div>
-              <ul class="flex flex-col items-center gap-4 justify-center">
-                <li class="md:border-l px-2">
+
+              <ul
+                class="flex flex-col items-center md:items-start lg:flex-row gap-4 justify-center"
+              >
+                <li class="lg:border-l px-2">
                   <a href="">مدرس ایمان مدائنی</a>
                 </li>
-                <li><a href="">مدرس رسمی مایکروسافت </a></li>
+                <li class="text-sm leading-6">
+                  <a href="">مدرس رسمی مایکروسافت </a>
+                </li>
               </ul>
-              <div class="text-center">
-                <span>14 سال</span>
-                <i class="fa-solid fa-receipt"></i>
+              <div class="text-center text-sm">
+                <span class="ml-2">14 سال</span>
+                <i class="fa-solid fa-receipt text-darkGrayColor"></i>
               </div>
             </div>
           </div>
 
-          <div class="px-3 mt-3">
+          <div class="px-3 mt-5 md:mt-12">
             <p>
               از سال 1394 تا کنون مدرس بیش از 1200 دانشجو بصورت حضوری ، 800
               دانشجو بصورت غیر حضوری و مشاور چندین سازمان و ارگان دولتی و شرکت
@@ -71,100 +78,181 @@
                 >
               </div>
 
-              <ul class="mt-5">
+              <ul class="mt-5 p-5 grid md:grid-cols-2 lg:grid-cols-3 gap-3">
                 <li
-                  class="relative  pr-5 before:w-[10px] before:h-[10px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:z-2 before:shadow-sm before:shadow-primaryColor-400"
                 >
                   مدرک Microsoft Certified Trainer - MCT
                 </li>
                 <li
-                  class="relative  pr-5 before:w-[10px] before:h-[10px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
                 >
                   MCSD
                 </li>
                 <li
-                  class="relative  pr-5 before:w-[10px] before:h-[10px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
                 >
                   MCP
                 </li>
                 <li
-                  class="relative  pr-5 before:w-[10px] before:h-[10px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
                 >
                   MCSE
                 </li>
                 <li
-                  class="relative  pr-5 before:w-[10px] before:h-[10px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
                 >
                   MCSA
                 </li>
               </ul>
             </div>
 
-            <!-- 
-               width: 100%;
-    height: 2px;
-    position: absolute;
-    right: 2px;
-    top: 38px;
-    background: #fff;
-    background: -moz-linear-gradient(left,#fff 0,#2195f3 100%);
-    background: -webkit-gradient(left top,right top,color-stop(0,#fff),color-stop(100%,#2195f3));
-    background: -webkit-linear-gradient(left,#fff 0,#2195f3 100%);
-    background: -o-linear-gradient(left,#fff 0,#2195f3 100%);
-    background: -ms-linear-gradient(left,#fff 0,#2195f3 100%);
-    background: linear-gradient(to right,#fff 0,#2195f3 100%);
-    content: '';
-         -->
-
-            <div>
-              <span>تخصص ها</span>
-              <ul>
-                <li>#C</li>
-                <li>DotNet Core</li>
-                <li>Asp.Net Core</li>
-                <li>Microsoft Azure</li>
-                <li>Type Script</li>
-                <li>Sql Server 2019</li>
-                <li>Xamarin</li>
-                <li>SEO</li>
-                <li>Micro Services</li>
-                <li>Windows Forms</li>
-                <li>Asp.Net MVC</li>
+            <div class="mt-5">
+              <span
+                class="relative before:w-[12px] before:h-[12px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:top-[25px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400 after:w-[100px] after:h-[2px] after:absolute after:content-[''] after:right-[10px] after:top-[30px] after:bg-whiteColor after:bg-gradient-to-r after:from-white after:to-blue-500"
+                >تخصص ها</span
+              >
+              <ul class="mt-5 p-5 grid md:grid-cols-2 lg:grid-cols-3">
+                <li
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  #C
+                </li>
+                <li
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  DotNet Core
+                </li>
+                <li
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  Asp.Net Core
+                </li>
+                <li
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  Microsoft Azure
+                </li>
+                <li
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  Type Script
+                </li>
+                <li
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  Sql Server 2019
+                </li>
+                <li
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  Xamarin
+                </li>
+                <li
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  SEO
+                </li>
+                <li
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  Micro Services
+                </li>
+                <li
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  Windows Forms
+                </li>
+                <li
+                  class="relative pr-5 before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:bottom-[8px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  Asp.Net MVC
+                </li>
               </ul>
             </div>
 
-            <div>
-              <span>سوابق</span>
-              <div>
-                <div>
-                  <span>1388-1393</span>
-                  <span>گوگل</span>
-                </div>
-                <div>
-                  <h4>فرانت اند دولوپر</h4>
-                  <p>برنامه نویسی سمت کاربر سایت و طراحی UI/UX</p>
-                </div>
-              </div>
+            <div class="mt-5">
+              <span
+                class="relative before:w-[12px] before:h-[12px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:top-[25px] before:content-[''] before:bg-whiteColor before:z-2 before:shadow-sm before:shadow-primaryColor-400 after:w-[100px] after:h-[2px] after:absolute after:content-[''] after:right-[10px] after:top-[30px] after:bg-whiteColor after:bg-gradient-to-r after:from-white after:to-blue-500"
+                >سوابق</span
+              >
 
-              <div>
-                <div>
-                  <span>1388-1393</span>
-                  <span>گوگل</span>
+              <div
+                class="flex flex-col lg:flex-row justify-around lg:gap-10 p-5"
+              >
+                <div
+                  class="mt-5 p-5 lg:max-w-[400px] text-justify relative before:w-[8px] before:h-[8px] before:border-2 before:border-primaryColor-400 before:rounded-full before:absolute before:right-0 before:top-[30px] before:content-[''] before:bg-whiteColor before:shadow-sm before:shadow-primaryColor-400"
+                >
+                  <p class="leading-8 relative">
+                    فعالیتم در حوزه برنامه نویسی و آی تی را از سال 1383 شروع
+                    کردم و از سال 1386 بصورت حرفه ای وارد این عرصه شدم ، اکنون
+                    با گذشت 14 سال و پس کسب تجربه و فنون برنامه نویسی و
+                    بازاریابی الکترونیکی در زمینه تدریس و مشاوره در این حوزه به
+                    سازمان های عمومی و خصوصی و عموم دانشجویان بصورت حضوری و غیر
+                    حضوری فعالیت میکنم.
+                  </p>
                 </div>
-                <div>
-                  <h4>فرانت اند دولوپر</h4>
-                  <p>برنامه نویسی سمت کاربر سایت و طراحی UI/UX</p>
-                </div>
-              </div>
 
-              <div>
-                <div>
-                  <span>1388-1393</span>
-                  <span>گوگل</span>
-                </div>
-                <div>
-                  <h4>فرانت اند دولوپر</h4>
-                  <p>برنامه نویسی سمت کاربر سایت و طراحی UI/UX</p>
+                <div
+                  class="relative p-5 flex justify-evenly md:justify-center gap-2 mt-5"
+                >
+                  <div class="flex flex-col justify-evenly gap-4">
+                    <div class="flex flex-col w-[100px]">
+                      <span>1388-1393</span>
+                      <span class="text-darkGrayColor text-sm">گوگل</span>
+                    </div>
+
+                    <div class="flex flex-col w-[100px]">
+                      <span>1388-1393</span>
+                      <span class="text-darkGrayColor text-sm">گوگل</span>
+                    </div>
+
+                    <div class="flex flex-col w-[100px]">
+                      <span>1388-1393</span>
+                      <span class="text-darkGrayColor text-sm">گوگل</span>
+                    </div>
+                  </div>
+
+                  <div class="flex">
+                    <div
+                      class="relative w-[1px] bg-lightGrayColor flex flex-col justify-around gap-5 items-center"
+                    >
+                      <div
+                        class="w-[10px] h-[10px] rounded-full border-2 border-primaryColor-400"
+                      ></div>
+                      <div
+                        class="w-[10px] h-[10px] rounded-full border-2 border-primaryColor-400"
+                      ></div>
+                      <div
+                        class="w-[10px] h-[10px] rounded-full border-2 border-primaryColor-400"
+                      ></div>
+                    </div>
+
+                    <div class="flex flex-col justify-evenly gap-4">
+                      <div class="px-5">
+                        <h4 class="font-semibold">فرانت اند دولوپر</h4>
+                        <p class="text-sm md:text-md text-darkGrayColor">
+                          برنامه نویسی سمت کاربر سایت و طراحی UI/UX
+                        </p>
+                      </div>
+
+                      <div class="px-5">
+                        <h4 class="font-semibold">فرانت اند دولوپر</h4>
+                        <p class="text-sm md:text-md text-darkGrayColor">
+                          برنامه نویسی سمت کاربر سایت و طراحی UI/UX برنامه نویسی
+                        </p>
+                      </div>
+
+                      <div class="px-5">
+                        <h4 class="font-semibold">فرانت اند دولوپر</h4>
+                        <p
+                          class="text-sm md:text-md max-w-[300px] text-darkGrayColor"
+                        >
+                          برنامه نویسی سمت کاربر سایت و طراحی UI/UX
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
