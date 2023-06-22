@@ -11,10 +11,11 @@
       referrerpolicy="no-referrer"
     />
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
       integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
@@ -27,17 +28,21 @@
     <title>Honors</title>
   </head>
   <body>
-    <section class="mt-5">
-      <div class="container max-w-[1100px]">
+    
+
+    <section
+      class="mt-7 before:bg-[url('../img/bg-pattern.png')] before:bg-no-repeat before:bg-cover bg-center before:w-full before:h-full before:absolute before:left-0"
+    >
+      <div class="container max-w-[1100px] p-5 mt-5">
         <h1 class="text-center text-xl font-semibold">
           گواهی نامه ها و تقدیرنامه ها
         </h1>
         <div
-          class="text-center mt-2 relative before:content-[''] before:absolute before:w-[48%] before:h-[2px] before:left-0 before:top-[50%] before:bg-primaryColor-500 after:content-[''] after:absolute after:-translate-x-30 after:w-[48%] after:h-[2px] after:right-0 after:top-[50%] after:bg-primaryColor-500 max-w-[400px] m-auto"
+          class="text-center mt-2 relative before:content-[''] before:absolute before:w-[48%] before:h-[2px] before:left-0 before:top-[50%] before:bg-primaryColor-300 after:content-[''] after:absolute after:-translate-x-30 after:w-[48%] after:h-[2px] after:right-0 after:top-[50%] after:bg-primaryColor-300 max-w-[400px] m-auto"
         >
-          <i class="fa-solid fa-paragraph text-primaryColor-500"></i>
+          <i class="fa-solid fa-paragraph text-primaryColor-300"></i>
         </div>
-        <div class="mt-4 leading-7 text-justify">
+        <div class="mt-8 p-5 lg:p-0 leading-7 text-justify">
           <p>
             شرکت برنامه نویسان فن آوی کارا مفتخر به کسب تقدیرنامه های مختلف از
             سازمان های مطرح بین المللی و داخلی است. مجموعه های تاپ لرن و آکادمی
@@ -45,187 +50,180 @@
             ها، تقدیرنامه ها و مدارک حسن انجام کار برای هر یک از این مجموعه ها
             را به تصویر کشیدیم تا نشانی باشد از تعهد ما.
           </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="mt-7">
-      <div class="container max-w-[1100px]">
-        <h3 class="text-center text-lg font-bold">افتخارات برنامه نویسان فن آوری کارا ​</h3>
+        <h3 class="text-center text-lg font-bold mt-8">
+          افتخارات برنامه نویسان فن آوری کارا ​
+        </h3>
         <div>
-            <div class="swiper xl:w-[1100px] swiperPortfolio mt-5">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper text-center">
-                <!-- Slides -->
+          <div class="swiper xl:w-[1100px] swiperPortfolio mt-7">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper text-center">
+              <!-- Slides -->
+              <div
+                class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-1.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+              >
                 <div
-                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-1.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+                  class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                ></div>
+                <div
+                  class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
                 >
-                 
-                  <div
-                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
-                  ></div>
-                  <div
-                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
-                  >
-                    <div class="flex flex-col gap-2">
-                      <span class="text-whiteColor text-lg">مدیر عامل</span>
-                      <span class="text-md font-semibold text-primaryColor-100"
-                        >جسیکا جونز</span
-                      >
-                    </div>
-                    <div
-                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                  <div class="flex flex-col gap-2">
+                    <span class="text-whiteColor text-lg">مدیر عامل</span>
+                    <span class="text-md font-semibold text-primaryColor-100"
+                      >جسیکا جونز</span
                     >
-                      <i class="fa-solid fa-envelope"></i>
-                      <i class="fa-brands fa-linkedin-in"></i>
-                      <i class="fa-brands fa-telegram"></i>
-                      <i class="fa-brands fa-facebook"></i>
-                    </div>
                   </div>
-                </div>
-
-                <div
-                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-2.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
-                >
-                  
                   <div
-                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
-                  ></div>
-                  <div
-                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                    class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
                   >
-                    <div class="flex flex-col gap-2">
-                      <span class="text-whiteColor text-lg">مدیر عامل</span>
-                      <span class="text-md font-semibold text-primaryColor-100"
-                        >جسیکا جونز</span
-                      >
-                    </div>
-                    <div
-                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
-                    >
-                      <i class="fa-solid fa-envelope"></i>
-                      <i class="fa-brands fa-linkedin-in"></i>
-                      <i class="fa-brands fa-telegram"></i>
-                      <i class="fa-brands fa-facebook"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-3.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
-                >
-                 
-                  <div
-                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
-                  ></div>
-                  <div
-                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
-                  >
-                    <div class="flex flex-col gap-2">
-                      <span class="text-whiteColor text-lg">مدیر عامل</span>
-                      <span class="text-md font-semibold text-primaryColor-100"
-                        >جسیکا جونز</span
-                      >
-                    </div>
-                    <div
-                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
-                    >
-                      <i class="fa-solid fa-envelope"></i>
-                      <i class="fa-brands fa-linkedin-in"></i>
-                      <i class="fa-brands fa-telegram"></i>
-                      <i class="fa-brands fa-facebook"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-4.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
-                >
-                  
-                  <div
-                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
-                  ></div>
-                  <div
-                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
-                  >
-                    <div class="flex flex-col gap-2">
-                      <span class="text-whiteColor text-lg">مدیر عامل</span>
-                      <span class="text-md font-semibold text-primaryColor-100"
-                        >جسیکا جونز</span
-                      >
-                    </div>
-                    <div
-                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
-                    >
-                      <i class="fa-solid fa-envelope"></i>
-                      <i class="fa-brands fa-linkedin-in"></i>
-                      <i class="fa-brands fa-telegram"></i>
-                      <i class="fa-brands fa-facebook"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-5.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
-                >
-                  
-                  <div
-                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
-                  ></div>
-                  <div
-                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
-                  >
-                    <div class="flex flex-col gap-2">
-                      <span class="text-whiteColor text-lg">مدیر عامل</span>
-                      <span class="text-md font-semibold text-primaryColor-100"
-                        >جسیکا جونز</span
-                      >
-                    </div>
-                    <div
-                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
-                    >
-                      <i class="fa-solid fa-envelope"></i>
-                      <i class="fa-brands fa-linkedin-in"></i>
-                      <i class="fa-brands fa-telegram"></i>
-                      <i class="fa-brands fa-facebook"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-6.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
-                >
-                  <div
-                    class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
-                  ></div>
-                  <div
-                    class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
-                  >
-                    <div class="flex flex-col gap-2">
-                      <span class="text-whiteColor text-lg">مدیر عامل</span>
-                      <span class="text-md font-semibold text-primaryColor-100"
-                        >جسیکا جونز</span
-                      >
-                    </div>
-                    <div
-                      class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
-                    >
-                      <i class="fa-solid fa-envelope"></i>
-                      <i class="fa-brands fa-linkedin-in"></i>
-                      <i class="fa-brands fa-telegram"></i>
-                      <i class="fa-brands fa-facebook"></i>
-                    </div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-facebook"></i>
                   </div>
                 </div>
               </div>
 
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev hidden md:block"></div>
+              <div
+                class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-2.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+              >
+                <div
+                  class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                ></div>
+                <div
+                  class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                >
+                  <div class="flex flex-col gap-2">
+                    <span class="text-whiteColor text-lg">مدیر عامل</span>
+                    <span class="text-md font-semibold text-primaryColor-100"
+                      >جسیکا جونز</span
+                    >
+                  </div>
+                  <div
+                    class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                  >
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                  </div>
+                </div>
+              </div>
 
-              <div class="swiper-button-next hidden md:block"></div>
+              <div
+                class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-3.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+              >
+                <div
+                  class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                ></div>
+                <div
+                  class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                >
+                  <div class="flex flex-col gap-2">
+                    <span class="text-whiteColor text-lg">مدیر عامل</span>
+                    <span class="text-md font-semibold text-primaryColor-100"
+                      >جسیکا جونز</span
+                    >
+                  </div>
+                  <div
+                    class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                  >
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-4.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+              >
+                <div
+                  class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                ></div>
+                <div
+                  class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                >
+                  <div class="flex flex-col gap-2">
+                    <span class="text-whiteColor text-lg">مدیر عامل</span>
+                    <span class="text-md font-semibold text-primaryColor-100"
+                      >جسیکا جونز</span
+                    >
+                  </div>
+                  <div
+                    class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                  >
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-5.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+              >
+                <div
+                  class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                ></div>
+                <div
+                  class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                >
+                  <div class="flex flex-col gap-2">
+                    <span class="text-whiteColor text-lg">مدیر عامل</span>
+                    <span class="text-md font-semibold text-primaryColor-100"
+                      >جسیکا جونز</span
+                    >
+                  </div>
+                  <div
+                    class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                  >
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-6.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
+              >
+                <div
+                  class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
+                ></div>
+                <div
+                  class="flex flex-col absolute bottom-2 right-5 transition-all ease-in-out duration-500 lg:group-hover:-translate-y-[40px]"
+                >
+                  <div class="flex flex-col gap-2">
+                    <span class="text-whiteColor text-lg">مدیر عامل</span>
+                    <span class="text-md font-semibold text-primaryColor-100"
+                      >جسیکا جونز</span
+                    >
+                  </div>
+                  <div
+                    class="flex gap-2 absolute -bottom-8 right-0 text-whiteColor"
+                  >
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev hidden md:block"></div>
+
+            <div class="swiper-button-next hidden md:block"></div>
           </div>
+        </div>
       </div>
     </section>
+
+    <script src="./app.js"></script>
   </body>
 </html>
