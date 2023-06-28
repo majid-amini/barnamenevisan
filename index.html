@@ -36,28 +36,54 @@
               <div
                 class="mobile__menu h-[50px] ml-2 flex flex-col gap-1 justify-center items-center cursor-pointer lg:hidden"
               >
-                <div>
+                <div class="menu__icon__container">
                   <span
-                    class="relative menu__icon menu__icon--1 w-[30px] h-[3px] bg-whiteColor block rounded-md"
+                    class="relative menu__icon menu__icon--1 w-[25px] h-[3px] bg-whiteColor block rounded-md"
                   ></span>
                   <span
-                    class="relative menu__icon menu__icon--2 w-[30px] h-[3px] bg-whiteColor block rounded-md mt-1"
+                    class="relative menu__icon menu__icon--2 w-[25px] h-[3px] bg-whiteColor block rounded-md mt-1"
                   ></span>
                   <span
-                    class="relative menu__icon menu__icon--3 w-[30px] h-[3px] bg-whiteColor block rounded-md mt-1"
+                    class="relative menu__icon menu__icon--3 w-[25px] h-[3px] bg-whiteColor block rounded-md mt-1"
                   ></span>
                 </div>
                 <div
                   class="navigator absolute w-[300px] h-screen right-0 top-0 bg-whiteColor p-5"
                 >
                   <ul class="nav w-[270px] flex flex-col items-center">
-                    <li><a href="">خانه</a></li>
-                    <li><a href="">درباره ما</a></li>
-                    <li><a href="">تیم</a></li>
-                    <li><a href="">سرویس ها</a></li>
-                    <li><a href="">پروژه ها</a></li>
-                    <li><a href=""> مقالات</a></li>
-                    <li><a href=""> ارتباط با ما</a></li>
+                    <li class="border-b w-full text-right p-3">
+                      <a href="" class="w-full">خانه</a>
+                    </li>
+                    <li class="border-b w-full text-right p-3">
+                      <a href="" class="w-full">درباره ما</a>
+                    </li>
+                    <li class="border-b w-full text-right p-3">
+                      <a href="" class="w-full">تیم</a>
+                    </li>
+                    <li
+                      class="submenu__item border-b h-full w-full flex flex-col"
+                    >
+                      <div class="flex gap-2 items-center h-full">
+                        <a class="w-full h-full ps-2" href="#">سرویس ها</a>
+                        <i
+                          class="fa fa-chevron-down items-center text-xs border-r p-3 h-full"
+                        ></i>
+                      </div>
+
+                      <ul class="submenu__ul hidden w-full text-right px-3">
+                        <li>تست</li>
+                        <li>تست</li>
+                      </ul>
+                    </li>
+                    <li class="border-b w-full text-right p-3">
+                      <a href="">پروژه ها</a>
+                    </li>
+                    <li class="border-b w-full text-right p-3">
+                      <a href=""> مقالات</a>
+                    </li>
+                    <li class="border-b w-full text-right p-3">
+                      <a href=""> ارتباط با ما</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -1095,15 +1121,10 @@
             </div>
 
             <!-- If we need navigation buttons -->
-            <div
-              class="swiper-button-prev hidden md:block"
-            ></div>
+            <div class="swiper-button-prev hidden md:block"></div>
 
-            <div
-              class="swiper-button-next hidden md:block"
-            ></div>
+            <div class="swiper-button-next hidden md:block"></div>
           </div>
-          
         </div>
       </section>
 
@@ -1118,7 +1139,6 @@
                 <div
                   class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-1.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
                 >
-                 
                   <div
                     class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
                   ></div>
@@ -1145,7 +1165,6 @@
                 <div
                   class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-2.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
                 >
-                  
                   <div
                     class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
                   ></div>
@@ -1172,7 +1191,6 @@
                 <div
                   class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-3.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
                 >
-                 
                   <div
                     class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
                   ></div>
@@ -1199,7 +1217,6 @@
                 <div
                   class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-4.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
                 >
-                  
                   <div
                     class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
                   ></div>
@@ -1226,7 +1243,6 @@
                 <div
                   class="swiper-slide w-[300px] h-[280px] relative flex flex-col bg-[url('../img/team-5.jpg')] bg-no-repeat bg-center bg-cover items-center transition-all ease-in-out duration-500 group overflow-hidden rounded-md"
                 >
-                  
                   <div
                     class="w-full h-full bg-[rgba(0,0,0,0.2)] absolute left-0 top-0"
                   ></div>
@@ -1581,12 +1597,7 @@
               </p>
               <p class="flex items-center text-sm font-medium">
                 <span class="text-primary mr-3">
-                  <svg
-                    width="19"
-                    height="21"
-                    viewBox="0 0 19 21"
-                    class=""
-                  >
+                  <svg width="19" height="21" viewBox="0 0 19 21" class="">
                     <path
                       d="M17.8076 11.8129C17.741 11.0475 17.1088 10.5151 16.3434 10.5151H2.16795C1.40261 10.5151 0.803643 11.0808 0.703816 11.8129L0.00502514 18.8008C-0.0282506 19.2001 0.104853 19.6327 0.371059 19.9322C0.637265 20.2317 1.03657 20.398 1.46916 20.398H17.0755C17.4748 20.398 17.8741 20.2317 18.1736 19.9322C18.4398 19.6327 18.5729 19.2334 18.5396 18.8008L17.8076 11.8129ZM17.2751 19.1668C17.2419 19.2001 17.1753 19.2667 17.0422 19.2667H1.46916C1.36933 19.2667 1.2695 19.2001 1.23623 19.1668C1.20295 19.1336 1.1364 19.067 1.16968 18.9339L1.86847 11.9127C1.86847 11.7463 2.00157 11.6465 2.16795 11.6465H16.3767C16.5431 11.6465 16.6429 11.7463 16.6762 11.9127L17.375 18.9339C17.3417 19.0337 17.3084 19.1336 17.2751 19.1668Z"
                     />
@@ -1666,7 +1677,7 @@
     <div id="dark"></div>
     <script>
       $(document).ready(function () {
-        $(".mobile__menu").click(function () {
+        $(".menu__icon__container").click(function () {
           if ($(".navigator").css("right") == "-270px") {
             $(".navigator").animate({ right: "0px" }, 350);
             // $(".menu-icon").animate({ right: "200px !important" }, 350);
@@ -1698,9 +1709,40 @@
           }
         });
       });
-      $(".mobile__menu").click(function () {
+      $(".menu__icon__container").click(function () {
         $(this).toggleClass("on");
       });
+
+      //submenu--items
+      var downArrow = true;
+      $(".submenu__item").click(function () {
+        var childrenElements = $(this).children();
+        var submenuDiv = childrenElements[0];
+
+        var iconTag = childrenElements[0].children[1];
+
+        childrenElements[1].classList.toggle("hidden");
+
+        iconTag.classList.toggle("bg-primaryColor-200");
+
+        if (downArrow) {
+          iconTag.classList.add("fa-chevron-left");
+          iconTag.classList.remove("fa-chevron-down");
+          submenuDiv.classList.add("bg-lightGrayColor");
+          downArrow = false;
+        } else {
+          iconTag.classList.add("fa-chevron-down");
+          iconTag.classList.remove("fa-chevron-left");
+          submenuDiv.classList.remove("bg-lightGrayColor");
+          downArrow = true;
+        }
+      });
+      //submenu--items
+      // $("#toggleButton").click(function () {
+      //   $("#content").slideToggle("slow", function () {
+      //     $(this).toggleClass("hidden");
+      //   });
+      // });
 
       $(window).scroll(function () {
         if ($(this).scrollTop() > 1) {
