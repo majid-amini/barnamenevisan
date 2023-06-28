@@ -683,10 +683,6 @@ video {
   left: 3rem;
 }
 
-.left-\[50px\] {
-  left: 50px;
-}
-
 .right-0 {
   right: 0px;
 }
@@ -695,12 +691,20 @@ video {
   right: 2.5rem;
 }
 
+.right-4 {
+  right: 1rem;
+}
+
 .right-5 {
   right: 1.25rem;
 }
 
 .right-\[10px\] {
   right: 10px;
+}
+
+.right-\[30px\] {
+  right: 30px;
 }
 
 .top-0 {
@@ -715,32 +719,12 @@ video {
   top: -80px;
 }
 
+.top-\[15px\] {
+  top: 15px;
+}
+
 .top-\[20px\] {
   top: 20px;
-}
-
-.top-\[30px\] {
-  top: 30px;
-}
-
-.top-\[50px\] {
-  top: 50px;
-}
-
-.left-\[30px\] {
-  left: 30px;
-}
-
-.left-\[\] {
-  left: ;
-}
-
-.left-\[-128px\] {
-  left: -128px;
-}
-
-.top-5 {
-  top: 1.25rem;
 }
 
 .isolate {
@@ -755,12 +739,12 @@ video {
   z-index: 10;
 }
 
-.z-\[-1\] {
-  z-index: -1;
-}
-
 .z-20 {
   z-index: 20;
+}
+
+.z-\[-1\] {
+  z-index: -1;
 }
 
 .float-right {
@@ -851,6 +835,10 @@ video {
 
 .mr-3 {
   margin-right: 0.75rem;
+}
+
+.mr-\[100px\] {
+  margin-right: 100px;
 }
 
 .mt-1 {
@@ -1064,14 +1052,6 @@ video {
   height: 100vh;
 }
 
-.max-h-\[300px\] {
-  max-height: 300px;
-}
-
-.max-h-\[200px\] {
-  max-height: 200px;
-}
-
 .\!w-\[100px\] {
   width: 100px !important;
 }
@@ -1108,6 +1088,10 @@ video {
   width: 1px;
 }
 
+.w-\[250px\] {
+  width: 250px;
+}
+
 .w-\[25px\] {
   width: 25px;
 }
@@ -1134,18 +1118,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[500px\] {
-  width: 500px;
-}
-
-.w-\[400px\] {
-  width: 400px;
-}
-
-.w-\[600px\] {
-  width: 600px;
 }
 
 .max-w-3xl {
@@ -2052,6 +2024,10 @@ video {
   border-radius: 0.375rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2143,20 +2119,8 @@ video {
   border-top-right-radius: 0.5rem;
 }
 
-.rounded-br-\[200px\] {
-  border-bottom-right-radius: 200px;
-}
-
-.rounded-tl-2xl {
-  border-top-left-radius: 1rem;
-}
-
-.rounded-tr-\[200px\] {
-  border-top-right-radius: 200px;
-}
-
-.rounded-bl-2xl {
-  border-bottom-left-radius: 1rem;
+.rounded-tr-xl {
+  border-top-right-radius: 0.75rem;
 }
 
 .border {
@@ -2336,6 +2300,47 @@ video {
 .bg-whiteColor {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-10 {
+  --tw-bg-opacity: 0.1;
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-5 {
+  --tw-bg-opacity: 0.05;
+}
+
+.bg-opacity-25 {
+  --tw-bg-opacity: 0.25;
+}
+
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+
+.bg-opacity-\[0\.15\] {
+  --tw-bg-opacity: 0.15;
+}
+
+.bg-opacity-\[0\.\] {
+  --tw-bg-opacity: 0.;
+}
+
+.bg-opacity-\[0\.25\] {
+  --tw-bg-opacity: 0.25;
+}
+
+.bg-opacity-\[0\.10\] {
+  --tw-bg-opacity: 0.10;
 }
 
 .bg-\[url\(\'\.\.\/img\/7774-1\.png\'\)\] {
@@ -2926,6 +2931,18 @@ video {
 .subpixel-antialiased {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .bg-blend-normal {
@@ -3818,8 +3835,24 @@ p {
     position: absolute;
   }
 
+  .md\:relative {
+    position: relative;
+  }
+
   .md\:bottom-\[-30px\] {
     bottom: -30px;
+  }
+
+  .md\:right-\[30px\] {
+    right: 30px;
+  }
+
+  .md\:top-\[15px\] {
+    top: 15px;
+  }
+
+  .md\:right-0 {
+    right: 0px;
   }
 
   .md\:mt-0 {
@@ -3838,6 +3871,10 @@ p {
     margin-top: 1.25rem;
   }
 
+  .md\:mr-\[100px\] {
+    margin-right: 100px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -3850,12 +3887,24 @@ p {
     height: 180px;
   }
 
+  .md\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .md\:h-\[320px\] {
+    height: 320px;
+  }
+
   .md\:\!w-\[350px\] {
     width: 350px !important;
   }
 
   .md\:w-\[350px\] {
     width: 350px;
+  }
+
+  .md\:w-\[250px\] {
+    width: 250px;
   }
 
   .md\:max-w-\[1100px\] {
@@ -3906,6 +3955,22 @@ p {
     border-top-right-radius: 0.5rem;
   }
 
+  .md\:rounded-bl-\[200px\] {
+    border-bottom-left-radius: 200px;
+  }
+
+  .md\:rounded-br-2xl {
+    border-bottom-right-radius: 1rem;
+  }
+
+  .md\:rounded-tl-\[200px\] {
+    border-top-left-radius: 200px;
+  }
+
+  .md\:rounded-tr-2xl {
+    border-top-right-radius: 1rem;
+  }
+
   .md\:border-4 {
     border-width: 4px;
   }
@@ -3934,8 +3999,17 @@ p {
             padding-inline-start: 100px;
   }
 
+  .md\:text-center {
+    text-align: center;
+  }
+
   .md\:text-right {
     text-align: right;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .group:hover .md\:group-hover\:-translate-y-20 {
