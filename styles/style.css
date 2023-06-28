@@ -683,6 +683,10 @@ video {
   left: 3rem;
 }
 
+.left-\[50px\] {
+  left: 50px;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -715,6 +719,30 @@ video {
   top: 20px;
 }
 
+.top-\[30px\] {
+  top: 30px;
+}
+
+.top-\[50px\] {
+  top: 50px;
+}
+
+.left-\[30px\] {
+  left: 30px;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[-128px\] {
+  left: -128px;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -729,6 +757,10 @@ video {
 
 .z-\[-1\] {
   z-index: -1;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .float-right {
@@ -1032,6 +1064,14 @@ video {
   height: 100vh;
 }
 
+.max-h-\[300px\] {
+  max-height: 300px;
+}
+
+.max-h-\[200px\] {
+  max-height: 200px;
+}
+
 .\!w-\[100px\] {
   width: 100px !important;
 }
@@ -1068,6 +1108,10 @@ video {
   width: 1px;
 }
 
+.w-\[25px\] {
+  width: 25px;
+}
+
 .w-\[270px\] {
   width: 270px;
 }
@@ -1084,10 +1128,6 @@ video {
   width: 320px;
 }
 
-.w-\[500px\] {
-  width: 500px;
-}
-
 .w-\[50px\] {
   width: 50px;
 }
@@ -1096,8 +1136,16 @@ video {
   width: 100%;
 }
 
-.w-\[25px\] {
-  width: 25px;
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[600px\] {
+  width: 600px;
 }
 
 .max-w-3xl {
@@ -2043,8 +2091,16 @@ video {
   border-bottom-left-radius: 0.25rem;
 }
 
+.rounded-bl-\[200px\] {
+  border-bottom-left-radius: 200px;
+}
+
 .rounded-br {
   border-bottom-right-radius: 0.25rem;
+}
+
+.rounded-br-2xl {
+  border-bottom-right-radius: 1rem;
 }
 
 .rounded-ee {
@@ -2067,6 +2123,10 @@ video {
   border-top-left-radius: 0.25rem;
 }
 
+.rounded-tl-\[200px\] {
+  border-top-left-radius: 200px;
+}
+
 .rounded-tl-lg {
   border-top-left-radius: 0.5rem;
 }
@@ -2075,8 +2135,28 @@ video {
   border-top-right-radius: 0.25rem;
 }
 
+.rounded-tr-2xl {
+  border-top-right-radius: 1rem;
+}
+
 .rounded-tr-lg {
   border-top-right-radius: 0.5rem;
+}
+
+.rounded-br-\[200px\] {
+  border-bottom-right-radius: 200px;
+}
+
+.rounded-tl-2xl {
+  border-top-left-radius: 1rem;
+}
+
+.rounded-tr-\[200px\] {
+  border-top-right-radius: 200px;
+}
+
+.rounded-bl-2xl {
+  border-bottom-left-radius: 1rem;
 }
 
 .border {
@@ -2256,11 +2336,6 @@ video {
 .bg-whiteColor {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-darkGrayColor {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\.\/img\/7774-1\.png\'\)\] {
