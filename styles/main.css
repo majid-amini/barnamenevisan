@@ -5,12 +5,12 @@
   font-family: "iranyekan";
   font-style: normal;
   font-weight: 500;
-  src: url("/fonts/iranyekanwebmediumfanum.eot");
-  src: url("/fonts/iranyekanwebmediumfanum.eot?#iefix")
+  src: url("../fonts/iranyekanwebmediumfanum.eot");
+  src: url("../fonts/iranyekanwebmediumfanum.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-8 */ url("/fonts/iranyekanwebmediumfanum.woff") format("woff"),
+    /* IE6-8 */ url("../fonts/iranyekanwebmediumfanum.woff") format("woff"),
     /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-      url("/fonts/iranyekanwebmediumfanum.ttf") format("truetype");
+      url("../fonts/iranyekanwebmediumfanum.ttf") format("truetype");
 }
 html,
 div,
